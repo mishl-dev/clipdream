@@ -86,6 +86,43 @@ pip install torch torchvision open-clip-torch pillow tqdm
 - `assets/output.jpg` - final image
 - `assets/output.gif` - animated process
 
+## Citations
+
+```bibtex
+@article{radford2021clip, 
+  title={Learning Transferable Visual Models From Natural Language Supervision}, 
+  author={Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and others}, 
+  journal={arXiv preprint arXiv:2103.00020}, 
+  year={2021}
+}
+
+@software{ilharco2021openclip, 
+  author={Ilharco, Gabriel and Wortsman, Mitchell and Carlini, Nicholas and Taori, Rohan and Dave, Achal and Shankar, Vaishaal and Namkoong, Hongseok and Miller, John and Hajishirzi, Hannaneh and Farhadi, Ali and Schmidt, Ludwig}, 
+  title={OpenCLIP}, 
+  year={2021}, 
+  doi={10.5281/zenodo.5143773}
+}
+
+@misc{mordvintsev2015deepdream, 
+  title={Inceptionism: Going Deeper into Neural Networks}, 
+  author={Mordvintsev, Alexander and Olah, Christopher and Tyka, Mike}, 
+  howpublished={Google Research Blog}, 
+  year={2015},
+  url={https://research.google/blog/inceptionism-going-deeper-into-neural-networks/}
+}
+
+@article{rudin1992tv, 
+  title={Nonlinear total variation based noise removal algorithms}, 
+  author={Rudin, Leonid I. and Osher, Stanley and Fatemi, Emad}, 
+  journal={Physica D: Nonlinear Phenomena}, 
+  volume={60}, 
+  pages={259--268}, 
+  year={1992}
+}
+```
+
 ## License
 
-[MIT](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Read the full text in the [LICENSE](LICENSE) file.
